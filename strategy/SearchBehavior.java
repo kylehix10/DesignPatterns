@@ -1,4 +1,4 @@
-//KyleHix 2024
+//Kyle Hix 2024
 
 import java.util.List;
 

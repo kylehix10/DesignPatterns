@@ -1,4 +1,3 @@
-package strategy;
 
 /**
  * Creates a new Person
