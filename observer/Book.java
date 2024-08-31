@@ -1,6 +1,5 @@
-//KyleHix
+//Kyle Hix 2024
 
-import observer.Genre;
 
 public class Book{
 
@@ -10,7 +9,9 @@ public class Book{
     private String authorLastName;
     private String description;
     private String toString;
-
+/**
+ * Setting the default constructors for the Book class
+ */
     public Book(String title, Genre genre, String authorFirstName, String authorLastName, String description){
         this.title=title;
         this.genre=genre;
@@ -44,8 +45,8 @@ public class Book{
     }
 
     public String toString() {
-        return "----- "+ title +"-----\n"+ genre +" by: "+ authorFirstName 
-        + authorLastName + "\n" + description;
+        return "\n----- "+ this.title +"-----\n"+ this.genre.label +" by: "+ this.authorFirstName 
+        + " "+this.authorLastName + "\n" + this.description+"\n";
                 
     }
     
