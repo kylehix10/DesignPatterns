@@ -1,8 +1,9 @@
-//Kyle Hix 2024
+
 
 import java.util.ArrayList;
 
 /**
+ * @author Kyle Hix
  * Class outlines the properties of a question.
  * Returns a question, an answer, and checks if the user is correct.
  */

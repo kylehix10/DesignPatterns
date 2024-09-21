@@ -1,4 +1,3 @@
-//Kyle Hix 2024
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -6,6 +5,7 @@ import java.util.Random;
 
 /**
  * Trivia game class that pulls questions, keeps score, and track of what round the user is on.
+ * @author Kyle Hix
  */
 
 public class TriviaGame {
